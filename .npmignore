@@ -1,0 +1,9 @@
+.idea
+.settings
+logs
+examples/exampleApplication
+*.log
+report
+coverage
+results-*
+visualizer

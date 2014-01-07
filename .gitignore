@@ -1,0 +1,14 @@
+# Project Specifics #
+#####################
+.project
+.classpath
+.idea
+.settings/*
+*.log
+node_modules
+/logs
+build/
+
+# OS generated files #
+######################
+.DS_Store*

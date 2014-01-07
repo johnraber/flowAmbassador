@@ -1,0 +1,38 @@
+{
+  "name": "flowambassador",
+  "version": "0.1.8",
+  "description": "javascript flow engine to be run on Node to support web and native mobile applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnraber/flowAmbassador.git"
+  },
+  "author": {
+    "name": "John Raber",
+    "email": "raber.john@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "sugar": ">=1.4.1",
+    "node-uuid": ">=1.4.1",
+    "debuglog": "0.0.2"
+  },
+  "devDependencies": {
+    "mocha": ">=1.16.2",
+    "express": ">=3.4.7",
+    "chai": ">=1.8.1",
+    "grunt": ">=0.4.2",
+    "supertest": ">=0.8.2",
+    "nodeload": ">=0.4.0",
+    "memwatch": ">=0.2.2",
+    "benchmark": ">=1.0.0",
+    "grunt-mocha-istanbul": ">=0.0.1",
+    "grunt-plato": ">=0.2.1",
+    "grunt-istanbul": ">=0.2.3",
+    "grunt-contrib-jshint": "*",
+    "grunt-mocha-test": "*"
+  }
+}
