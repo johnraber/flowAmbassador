@@ -9,6 +9,7 @@ node_modules
 /logs
 build/
 visualizer
+examples/exampleApplication
 
 # OS generated files #
 ######################
