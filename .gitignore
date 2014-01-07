@@ -8,6 +8,7 @@
 node_modules
 /logs
 build/
+visualizer
 
 # OS generated files #
 ######################
