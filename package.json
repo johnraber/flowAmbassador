@@ -34,5 +34,8 @@
     "grunt-istanbul": ">=0.2.3",
     "grunt-contrib-jshint": "*",
     "grunt-mocha-test": "*"
-  }
+  },
+  "keywords": [
+      "webflow", "flow", "state machine", "dfa", "flow engine", "web-flow"
+  ]
 }
