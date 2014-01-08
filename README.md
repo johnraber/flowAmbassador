@@ -356,7 +356,7 @@ not automatically apply to parent or subflows.
 
 
 
-# Contributing
+##### Contributing
 
 Bugs and new features should be submitted using [Github issues](https://github.com/johnraber/flowAmbassador/issues/new). Please include with a detailed description and the expected behaviour. If you would like to submit a change yourself do the following steps.
 
