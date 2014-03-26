@@ -367,4 +367,4 @@ Bugs and new features should be submitted using [Github issues](https://github.c
 4. Push to the branch (`git push origin fix-for-that-thing`)
 5. Open a [Pull Request](https://github.com/johnraber/flowAmbassador/pulls)
 
-Please keep your branch up to date by rebasing upstream changes from master.
+Please keep your branch up to date by rebasing upstream changes from master

@@ -7,8 +7,8 @@ var assert = require('assert'),
     http = require("http"),
     request = require("supertest"),
     FlowEventListener = require('../lib/flowEventListener'),
-    lastDitch = require('../examples/lastDitchMiddlewareHandler').requestHandler,
-    memwatch = require('memwatch');
+    lastDitch = require('../examples/lastDitchMiddlewareHandler').requestHandler;
+//    memwatch = require('memwatch');
 
 
 describe("XOFlow on FlowAmbassador Test", function() {
@@ -36,15 +36,15 @@ describe("XOFlow on FlowAmbassador Test", function() {
 
         server = http.createServer(app);
 
-        memwatch.on('leak', function(info) {
-            console.log('>>>>>>>>>>>>>>>>   leaking memory hommie!');
-            console.dir(info);
-        });
-
-        memwatch.on('stats', function(stats) {
-            console.log('yay stats!');
-            console.dir(stats);
-        });
+//        memwatch.on('leak', function(info) {
+//            console.log('>>>>>>>>>>>>>>>>   leaking memory hommie!');
+//            console.dir(info);
+//        });
+//
+//        memwatch.on('stats', function(stats) {
+//            console.log('yay stats!');
+//            console.dir(stats);
+//        });
 
         senorDirector = new SenorDirector(xoInitObj, true);
         senorDirector.registerFlowEventListener(new FlowEventListener('test-flowAmbassador'));
